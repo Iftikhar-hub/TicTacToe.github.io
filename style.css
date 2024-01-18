@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Mulish&family=Poppins:ital,wght@0,500;1,500&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Mulish&family=Poppins:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    width: 100%;
+    height: 10vh;
+    background: #29303a
+}
+
+nav {
+    background-color: rgb(54, 58, 61);
+    color: #fb7c14;;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-top: 20px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+
+}
+
+.box {
+    border: 2px solid #6dee0a;
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+
+.box:hover {
+    background-color: rgb(69, 74, 77);
+}
+
+.gameInfo {
+    padding: 0 34px;
+    font-family: 'Robot', sans-serif;
+    color: #fff;
+}
+
+#hone {
+    /* font-family: 'Robot', sans-serif; */
+    font-family: monospace;
+    color: #fff;
+}
+
+.topSection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.topSection span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Robot', sans-serif; */
+    font-family: monospace;
+    font-size: 20px;
+    color: #fff;
+}
+
+.imageBox img {
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+#reset {
+    height: 50px;
+    width: 100px;
+    background: #fb7c14;;
+    border: none;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 190px;
+}
